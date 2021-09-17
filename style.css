@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+body {
+  background: #222;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+h1 {
+  color: #ff0072;
+  font-family: 'Oswald', sans-serif;
+  font-size: 60px;
+}
+
+.specialUnderline {
+  text-decoration: underline;
+}
+.heroimage{
+  width: 100%
+  display:block;
+}
+
+p {
+  margin-top: 32px;
+  #display: inline;
+}
