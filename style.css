@@ -7,18 +7,50 @@ body {
 }
 
 h1 {
-  color: #ff0072;
+  color: #F81E0C;
   font-family: 'Oswald', sans-serif;
-  font-size: 60px;
+  font-display: block;
+  font-size: 100px;
+  text-align: center;
+  line-height: 50pt;
 }
 
-.specialUnderline {
-  text-decoration: underline;
+h2{
+  color: #00F082;
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
+  text-align: center;
 }
-.heroimage{
-  width: 100%
-  display:block;
+
+h3{
+  color: #00F082;
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
+  text-align: center;
 }
+
+.pic{
+  display: flex;
+  text-align: center;
+  width: 95%;
+  vertical-align: middle;
+}
+
+.column{
+  flex: 50%;
+  padding: 5px;
+  text-align: center;
+}
+.row{
+  display: flex;
+  line-height: 50px;
+}
+
+iframe{
+  display: block;
+  margin: auto;
+}
+
 
 p {
   margin-top: 32px;
